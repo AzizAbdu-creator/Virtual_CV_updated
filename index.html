@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aziz Abdu | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><span>Aziz Abdu</span></a>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#certificates" class="nav-link">Certificates</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="header-actions">
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark / light mode">
+                <i class='bx bx-moon'></i>
+            </button>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <a href="https://www.linkedin.com/in/abdulaziz-abdu-227a43283" target="_blank" rel="noopener" class="visit-btn">Visit LinkedIn</a>
+        </div>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="home__img-wrap reveal">
+                <img class="home__img" src="Images/me1.jpg" alt="Aziz Abdu profile photo">
+            </div>
+
+            <div class="info-box reveal">
+                <div class="Text">
+                    <h3>Hi, I am</h3>
+                    <h1>Aziz Abdu</h1>
+                    <span class="typewriter" id="typewriter"></span>
+                </div>
+
+                <a class="home-location" href="https://www.google.com/maps/search/?api=1&query=George%2C+Western+Cape%2C+South+Africa" target="_blank" rel="noopener"><i class='bx bxs-map'></i> George, Western Cape, South Africa</a>
+
+                <div class="btn-group">
+                    <a href="#contact" class="btn">Get In Touch</a>
+                    <a href="Aziz_Abdu_CV.pdf" download="Aziz_Abdu_CV.pdf" class="btn btn-outline" id="download-cv">Download CV</a>
+                </div>
+
+                <div class="link-cards">
+                    <a href="https://github.com/AzizAbdu-creator" target="_blank" rel="noopener" class="link-card" aria-label="GitHub">
+                        <i class='bx bxl-github'></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abdulaziz-abdu-227a43283" target="_blank" rel="noopener" class="link-card" aria-label="LinkedIn">
+                        <i class='bx bxl-linkedin-square'></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:abdulazizbdul11@gmail.com" class="link-card" aria-label="Email">
+                        <i class='bx bx-envelope'></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+
+                <div class="availability-badge">
+                    <i class='bx bx-check-circle'></i>
+                    <span>Open to Opportunities</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title reveal">About</h2>
+
+        <div class="about-container">
+
+            <img class="about__img reveal" src="Images/me2.jpg" alt="Aziz Abdu casual photo">
+
+            <div class="about-info reveal">
+
+                <h3>Aziz Abdu</h3>
+                <span class="about-role">BSc Information Technology Student &mdash; North-West University</span>
+
+                <p>
+                    I am a final year BSc Information Technology student at North West University,
+                    Potchefstroom, with a strong foundation in programming, Systems Analysis, Computer
+                    Networks, and Information Security. I'm passionate about applying problem-solving
+                    and technical skills to real-world challenges, with the goal of becoming a skilled
+                    IT professional specialising in front and back end web development.
+                </p>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Major Projects</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Languages / Tools</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">2027</span>
+                        <span class="stat-label">Expected Graduation</span>
+                    </div>
+                </div>
+
+                <div class="about-roles">
+                    <h4>Interests</h4>
+                    <div class="interest-badges">
+                        <span class="interest-badge"><i class='bx bx-football'></i> Sports</span>
+                        <span class="interest-badge"><i class='bx bx-book-open'></i> Reading</span>
+                        <span class="interest-badge"><i class='bx bx-joystick'></i> Gaming</span>
+                        <span class="interest-badge"><i class='bx bx-code-alt'></i> Building Side Projects</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills section" id="skills">
+        <h2 class="section-title reveal">Skills</h2>
+
+        <div class="skills__container bd-grid">
+            <div class="reveal">
+                <h2 class="skills__subtitle">Programming Languages</h2>
+
+                <p class="skills__text">
+                    Developed through academic coursework, personal projects, and continuous
+                    self-learning across systems analysis, information security, networks, and AI.
+                </p>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class="bx bxl-python skills__icon"></i>
+                        <span class="skills__name">Python</span>
+                    </div>
+                    <div class="skills__bar skills__python"></div>
+                    <div><span class="skills__percentage">80%</span></div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class="bx bxl-java skills__icon"></i>
+                        <span class="skills__name">Java</span>
+                    </div>
+                    <div class="skills__bar skills__java"></div>
+                    <div><span class="skills__percentage">75%</span></div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class="devicon-csharp-plain skills__icon"></i>
+                        <span class="skills__name">C#</span>
+                    </div>
+                    <div class="skills__bar skills__csharp"></div>
+                    <div><span class="skills__percentage">85%</span></div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class="devicon-cplusplus-plain skills__icon"></i>
+                        <span class="skills__name">C++</span>
+                    </div>
+                    <div class="skills__bar skills__cpp"></div>
+                    <div><span class="skills__percentage">70%</span></div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class="bx bxl-html5 skills__icon"></i>
+                        <span class="skills__name">HTML</span>
+                    </div>
+                    <div class="skills__bar skills__html"></div>
+                    <div><span class="skills__percentage">80%</span></div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class="devicon-azuresqldatabase-plain skills__icon"></i>
+                        <span class="skills__name">SQL</span>
+                    </div>
+                    <div class="skills__bar skills__sql"></div>
+                    <div><span class="skills__percentage">80%</span></div>
+                </div>
+            </div>
+
+            <div class="reveal">
+                <h2 class="skills__subtitle">Tools, Databases &amp; Languages</h2>
+                <p class="skills__text">Platforms and human languages I work with day to day.</p>
+
+                <div class="badge-group">
+                    <span class="badge"><i class='bx bxl-github'></i> GitHub</span>
+                    <span class="badge"><i class='bx bxl-visual-studio'></i> Visual Studio</span>
+                    <span class="badge"><i class='bx bx-data'></i> Oracle</span>
+                    <span class="badge"><i class='bx bx-server'></i> SQL Server</span>
+                </div>
+
+                <div class="skills__data lang-data">
+                    <div class="skills__names">
+                        <span class="skills__name">English</span>
+                    </div>
+                    <div class="skills__bar skills__english"></div>
+                    <div><span class="skills__percentage">Native</span></div>
+                </div>
+
+                <div class="skills__data lang-data">
+                    <div class="skills__names">
+                        <span class="skills__name">Afrikaans</span>
+                    </div>
+                    <div class="skills__bar skills__afrikaans"></div>
+                    <div><span class="skills__percentage">Advanced</span></div>
+                </div>
+
+                <h2 class="skills__subtitle general-title">General Skills</h2>
+                <div class="badge-group">
+                    <span class="badge">Problem Solving</span>
+                    <span class="badge">Team Collaboration</span>
+                    <span class="badge">Communication</span>
+                    <span class="badge">Leadership</span>
+                    <span class="badge">Hard Worker</span>
+                    <span class="badge">Time Management</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title reveal">Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card reveal" data-project="hotel">
+                <i class='bx bx-hotel project-icon'></i>
+                <h3>Hotel Management System</h3>
+                <p>A database project built through Oracle to track bookings, catering services,
+                    billing, and maintenance amongst other components.</p>
+                <div class="btn-group">
+                    <button class="btn details-btn" data-project="hotel">View Details</button>
+                    <a href="https://github.com/AzizAbdu-creator/Aurelius-Grand-Imperial-Hotel" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-project="rehab">
+                <i class='bx bx-plus-medical project-icon'></i>
+                <h3>Rehab Facility System</h3>
+                <p>A Rehab Management Facility built with SQL Server for the database and a C#
+                    Windows Forms App (.NET Framework), recording clients, managing bookings, and
+                    assigning doctors/counsellors.</p>
+                <div class="btn-group">
+                    <button class="btn details-btn" data-project="rehab">View Details</button>
+                    <a href="https://github.com/AzizAbdu-creator/Rehab-System" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-project="fitness">
+                <i class='bx bx-run project-icon'></i>
+                <h3>Fitness Tracker Application</h3>
+                <p>A fitness tracker built in Visual Studio .NET MAUI with C#, recording daily
+                    steps, food and drink intake, and exercises completed through the day.</p>
+                <div class="btn-group">
+                    <button class="btn details-btn" data-project="fitness">View Details</button>
+                    <a href="https://github.com/AzizAbdu-creator/MobileApplication" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-project="network">
+                <i class='bx bx-sitemap project-icon'></i>
+                <h3>Business Premises Network Design</h3>
+                <p>A segmented Cisco Packet Tracer network keeping Reception, Design, and Workshop
+                    isolated from one another while all sections still get Internet access.</p>
+                <div class="btn-group">
+                    <button class="btn details-btn" data-project="network">View Details</button>
+                    <a href="https://github.com/AzizAbdu-creator/Packet-Tracer" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== Certificates Section ===== -->
+    <section id="certificates" class="certificates">
+        <h2 class="section-title reveal">Certificates &amp; Courses</h2>
+
+        <div class="cert-grid cert-grid--single">
+            <div class="cert-card cert-card--featured reveal">
+                <div class="cert-icon-ring"><i class='bx bxs-shield-alt-2 cert-icon'></i></div>
+                <h3>Cyber Threat Management</h3>
+                <span class="cert-badge">Completed</span>
+                <p>Learn about cybersecurity governance and build the skills to manage threats.</p>
+            </div>
+        </div>
+
+        <h3 class="subsection-title reveal">Experience</h3>
+        <div class="timeline-grid">
+            <div class="timeline-card reveal">
+                <div class="timeline-card-head">
+                    <div class="org-badge"><img src="Images/nwu-logo.png" alt="North-West University logo"></div>
+                    <div>
+                        <h4>Student Assistant</h4>
+                        <span class="timeline-org">North-West University</span>
+                    </div>
+                </div>
+                <div class="timeline-meta">
+                    <span><i class='bx bx-calendar'></i> 07/2025 &ndash; 12/2025</span>
+                    <span><i class='bx bxs-map'></i> Potchefstroom, South Africa</span>
+                </div>
+                <ul class="timeline-points">
+                    <li><i class='bx bx-chevron-right'></i> Assist the lecturers of Statistics 121 modules with invigilating, marking, or any other jobs for which they may need my help.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-card reveal">
+                <div class="timeline-card-head">
+                    <div class="org-badge"><img src="Images/nwu-logo.png" alt="North-West University logo"></div>
+                    <div>
+                        <h4>Test Invigilator</h4>
+                        <span class="timeline-org">North-West University</span>
+                    </div>
+                </div>
+                <div class="timeline-meta">
+                    <span><i class='bx bx-calendar'></i> 07/2025 &ndash; 12/2025</span>
+                    <span><i class='bx bxs-map'></i> Potchefstroom, South Africa</span>
+                </div>
+                <ul class="timeline-points">
+                    <li><i class='bx bx-chevron-right'></i> Assist the lecturers of Statistics 122 modules with invigilating.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 class="subsection-title reveal">Education</h3>
+        <div class="timeline-grid">
+            <div class="timeline-card reveal">
+                <div class="timeline-card-head">
+                    <div class="org-badge"><img src="Images/nwu-logo.png" alt="North-West University logo"></div>
+                    <div>
+                        <h4>Bachelor of Science in Information Technology</h4>
+                        <span class="timeline-org">North-West University</span>
+                    </div>
+                </div>
+                <div class="timeline-meta">
+                    <span><i class='bx bx-calendar'></i> 02/2024 &ndash; Present</span>
+                    <span><i class='bx bxs-map'></i> Potchefstroom, South Africa</span>
+                </div>
+                <ul class="timeline-points">
+                    <li><i class='bx bx-chevron-right'></i> Core focus areas: C#, C++, Python and Java Programming, Systems Analysis, Information Security, Networks, and Artificial Intelligence.</li>
+                    <li><i class='bx bx-chevron-right'></i> Successfully completed all modules with a number of distinctions.</li>
+                    <li><i class='bx bx-chevron-right'></i> Strong academic performance across quantitative, analytical, and technical modules.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-card reveal">
+                <div class="timeline-card-head">
+                    <div class="org-badge org-badge--school"><img src="Images/yhs-logo.png" alt="York High School logo"></div>
+                    <div>
+                        <h4>High School Education</h4>
+                        <span class="timeline-org">York High School</span>
+                    </div>
+                </div>
+                <div class="timeline-meta">
+                    <span><i class='bx bx-calendar'></i> 01/2019 &ndash; 12/2023</span>
+                    <span><i class='bx bxs-map'></i> George, South Africa</span>
+                </div>
+                <ul class="timeline-points">
+                    <li><i class='bx bx-chevron-right'></i> Proficiency with software such as Microsoft Word, Excel, and PowerPoint through Computer Applications Technology, as well as basic HTML.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section id="contact" class="contact">
+        <h2 class="section-title reveal">Let's Connect</h2>
+        <p class="contact-subtitle reveal">Have a project in mind or just want to say hi? Reach out in any of the ways below.</p>
+
+        <div class="contact-cards reveal">
+            <a href="#" class="contact-card" onclick="return false;">
+                <div class="contact-card-icon"><i class='bx bxs-phone'></i></div>
+                <span class="contact-card-label">Call</span>
+                <span class="contact-card-value">Available upon Request</span>
+            </a>
+            <a href="mailto:abdulazizbdul11@gmail.com" class="contact-card">
+                <div class="contact-card-icon"><i class='bx bxs-envelope'></i></div>
+                <span class="contact-card-label">Email</span>
+                <span class="contact-card-value">abdulazizbdul11@gmail.com</span>
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=George%2C+Western+Cape%2C+South+Africa" target="_blank" rel="noopener" class="contact-card">
+                <div class="contact-card-icon"><i class='bx bxs-map'></i></div>
+                <span class="contact-card-label">Location</span>
+                <span class="contact-card-value">George, Western Cape, South Africa</span>
+            </a>
+        </div>
+
+    </section>
+
+    <div class="toast" id="toast"></div>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </button>
+
+    <footer>
+        <h2>Aziz Abdu</h2>
+
+        <ul class="socials">
+            <li>
+                <a href="https://www.linkedin.com/in/abdulaziz-abdu-227a43283" target="_blank" rel="noopener">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/AzizAbdu-creator" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:abdulazizbdul11@gmail.com" aria-label="Send me an email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </li>
+        </ul>
+
+        <div class="copyright">&copy; Aziz Abdu &mdash; All rights reserved</div>
+    </footer>
+
+    <!-- ===== Project Detail Modal ===== -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal">
+            <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
